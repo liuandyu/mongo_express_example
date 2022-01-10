@@ -21,7 +21,6 @@ const Rental = mongoose.model('Rental', new mongoose.Schema({
 			},
 			numberInStock: {
 				type: Number,
-				required: true,
 				min: 0,
 				max: 255
 			},

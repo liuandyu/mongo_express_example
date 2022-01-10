@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --verbose --coverage"
+    "test": "jest --watchAll --verbose"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "joi-password-complexity": "^5.1.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.21",
+    "moment": "^2.29.1",
     "mongoose": "^6.0.1",
     "nodemon": "^2.0.15",
     "winston": "^3.3.3",
